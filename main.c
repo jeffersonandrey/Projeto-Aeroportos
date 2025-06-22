@@ -14,7 +14,7 @@ int main() {
         printf("4. Listar voos a partir de um aeroporto    |\n");
         printf("5. Buscar trajeto entre aeroportos         |\n");
         printf("6. Listar aeroportos cadastrados           |\n");
-        printf("7. Listar aeroportos cadastrados           |\n");
+        printf("7. Listar voos cadastrados                 |\n");
         printf("0. Sair                                    |");
         printf("\n===========================================+\n");
         printf("Escolha uma opcao: ");
