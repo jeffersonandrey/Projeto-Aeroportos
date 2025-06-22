@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar Programa de Grafos",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "src/main.c",
+        "src/sistema.c",
+        "-Iinclude",
+        "-o",
+        "build/programa.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
